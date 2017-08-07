@@ -37,9 +37,7 @@ html {
 /* Header */
 
 header {
-  position: fixed;
   width: 100%;
-  border-bottom: solid 1px #c6c1c1;
   background-color: white;
 }
 
@@ -111,6 +109,11 @@ header .mobile {
 }
 
 /* Sign Up Section */
+
+.banner {
+  background: url(../images/banner-landingpage.jpg) center center no-repeat;
+  background-size: cover;
+}
 
 #sign-up-section {
   display: flex;
